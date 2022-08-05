@@ -23,6 +23,7 @@ body {
   font-family: oswald, sans-serif;
   width: 50%;
   border-radius: 5px;
+  border: solid 0.5px $negro;
   padding: 10px;
   margin-top: 10px;
   text-align: center;
@@ -33,7 +34,7 @@ body {
 
 .botones:hover {
   background-color: $grisClaro;
-  border: solid 0.5px $negro;
+ 
 }
 
 p {
