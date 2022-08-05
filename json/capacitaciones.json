@@ -1,0 +1,57 @@
+[{
+    "id": 1,
+    "tipo": "Programa",
+    "nombre": "Asesor Financiero Certificado",
+    "duracion": 48,
+    "precio": 75000,
+    "foto": "./img/asesorFinanciero2.jpg"
+}, {
+    "id": 2,
+    "tipo": "Programa",
+    "nombre": "Tu Nuevo Rol",
+    "duracion": 56,
+    "precio": 60000,
+    "foto": "./img/TNR.jpg"
+}, {
+    "id": 3,
+    "tipo": "Programa",
+    "nombre": "Generación X",
+    "duracion": 46,
+    "precio": 45000,
+    "foto": "./img/GX1.jpg"
+}, {
+    "id": 4,
+    "tipo": "Curso",
+    "nombre": "Asociatividad",
+    "duracion": 30,
+    "precio": 30000,
+    "foto": "./img/asociatividad.jpg"
+}, {
+    "id": 5,
+    "tipo": "Curso",
+    "nombre": "Tiempo de Balances",
+    "duracion": 36,
+    "precio": 35000,
+    "foto": "./img/TB.jpg"
+}, {
+    "id": 6,
+    "tipo": "Curso",
+    "nombre": "Proyección Profesional",
+    "duracion": 40,
+    "precio": 40000,
+    "foto": "./img/proyeccionP.jpg"
+}, {
+    "id": 7,
+    "tipo": "Workshop",
+    "nombre": "Mujeres de vuelta a la profesión",
+    "duracion": 8,
+    "precio": 15000,
+    "foto": "./img/mujeres.jpg"
+}, {
+    "id": 8,
+    "tipo": "Workshop",
+    "nombre": "Mi Primer Estudio",
+    "duracion": 10,
+    "precio": 18000,
+    "foto": "./img/MPE.jpg"
+}]

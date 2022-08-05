@@ -1,0 +1,102 @@
+.infoBar {
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 0px;
+    
+    h1 {
+        color: $gris;
+        font-style: bold;
+        font-size: 36px;
+        font-weight: bold;
+        margin-top: 20px;
+      }
+      .breadcrumb-item {
+        font-size: 20px;
+        color: $gris;
+      }
+
+      #colorbreadcrumb{
+        color: $turquesa;
+      }
+  }
+
+#container-general {
+    display: flex;
+    flex-direction: column;
+
+    #ordenar-modal {
+        display: flex;
+        justify-content: space-around;
+
+        #seleccion {
+            width: 10%;
+            margin: 20px 0px 30px 0px;
+        }
+
+        .modal-carrito {
+            width: 15%;
+            align-self: center;
+
+            i {
+                font-size: 20px;
+            }
+        }
+
+        .table {
+            text-align: center;
+        }
+
+        #gastoTotal {
+            font-size: 18px;
+        }
+        #btnCarrito {
+            font-size: 18px;
+            font-family: oswald, sans-serif;
+            border-radius: 5px;
+            padding: 10px;
+            margin-top: 10px;
+            text-align: center;
+            align-self: center;
+            color: $blanco;
+            background-color: $gris;
+            border: solid 0.5px $negro;
+        }
+
+        #btnCarrito:hover {
+        background-color: $grisClaro;
+        }
+    }
+
+    #section-capacitaciones {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-end;
+
+        .card-capacitacion {
+            width: 30%;
+            margin: 20px;
+            text-align: center;
+
+            .img-container {
+                position: relative;
+                overflow: hidden;
+                margin-bottom: 10px;
+                margin-top: 20px;
+
+                img {
+                    width: 100%;
+                    height: 50%;
+                    border-radius: 10px;
+                }
+            }
+
+            .info-capacitacion {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}
